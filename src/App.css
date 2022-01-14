@@ -1,0 +1,30 @@
+.App {
+  max-width: 360px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.custom-shape-divider-bottom-1642158847 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  background: linear-gradient(200deg, #ffffff, #f0fafd, #e2f5fb, #d3f0f9, #c3eaf7, #b3e5f5, #a2e0f3, #91dbf1, #7dd6ef, #67d0ed, #4ccbeb, #21c6e9);
+  z-index: -1;
+}
+
+.custom-shape-divider-bottom-1642158847 svg {
+  position: relative;
+  display: block;
+  width: calc(171% + 1.3px);
+  height: 900px;
+  left: -150px;
+  width: 1000px;
+}
+
+.custom-shape-divider-bottom-1642158847 .shape-fill {
+  fill: #FFFFFF;
+}
