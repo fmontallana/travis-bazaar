@@ -4,6 +4,7 @@ export default createGlobalStyle`
       :root {
         --blue: #21C6E9;
         --gray: #7F9D9D;
+        --black: #202020;
       }
       *,
       *::after,

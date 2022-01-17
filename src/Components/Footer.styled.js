@@ -11,6 +11,7 @@ padding: 0 20px;
 position: fixed;
 bottom: 0;
 background-color: white;
+z-index: 10;
 
     a {
         color: #516365;

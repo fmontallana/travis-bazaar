@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
     width: 360px;
     height: 100vh;
-    overflow-y: hidden;
+    overflow-y: scroll;
 `
 export const ProfilePhoto = styled.div`
     display: flex;
@@ -66,14 +66,26 @@ export const ProfileDetails = styled.div`
 `
 export const Details = styled.div`
 
-    padding-bottom: 50px;
-    height: 40vh;
+    height: 30vh;
     overflow-y: scroll;
+    background-color: white;
+    padding: 0 10px;
+    border-radius: .5pc;
+    border: .5px var(--gray) solid;
+    margin-bottom: 50px;
     
     > div {
         display: flex;
         align-items: baseline;
         justify-content: space-between;
+        gap: 10px;
+
+        p {
+            font-weight: bold;
+            margin: 0;
+            padding: 10px 0;
+
+        }
     }
 
 `

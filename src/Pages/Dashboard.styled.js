@@ -7,9 +7,10 @@ export const Header = styled.div`
   height: 50px;
   width: 100%;
   padding: 30px 10px ;
-  background-color: white;
+  
   svg {
     color: var(--blue);
+    filter: drop-shadow(2px 2px 1px #fff);
   }
 
   img {
@@ -26,7 +27,6 @@ export const ContainerSearch = styled.div`
   position: sticky;
   top: 0;
   z-index: 2;
-  background-color: white;
 
   input {
     width: 100%;
@@ -55,7 +55,6 @@ export const ContainerFilter = styled.div`
   position: sticky;
   top:50px;
   width: 100%;
-  background-color: white;
   z-index: 2;
 
   button {
@@ -79,10 +78,12 @@ export const ContainerFilter = styled.div`
 export const ContainerProduct = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 5px;
   padding: 10px;
   margin-top: 5px;
-  padding-bottom: 50px;
+  height: 70%;
+  overflow-y: scroll;
 `;
 
 export const Wrapper = styled.div`

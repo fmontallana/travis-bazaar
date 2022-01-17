@@ -36,7 +36,7 @@ export default function Menu({
       <MenuLinks>
         <div>
           <AiFillHeart size={20} />
-          <Link to={"/"}>My favorites</Link>
+          <Link to={"/favorites"}>My favorites</Link>
         </div>
         <div>
           <IoWallet size={20} />
@@ -44,19 +44,19 @@ export default function Menu({
         </div>
         <div>
           <BsHandbagFill size={20} />
-          <Link to={"/"}>My orders</Link>
+          <Link to={"/cart"}>My orders</Link>
         </div>
         <div>
           <BsFillInfoCircleFill size={20} />
-          <Link to={"/"}>About us</Link>
+          <Link to={"/about-us"}>About us</Link>
         </div>
         <div>
           <BsFillShieldLockFill size={20} />
-          <Link to={"/"}>Privacy policy</Link>
+          <Link to={"/privacy-policy"}>Privacy policy</Link>
         </div>
         <div>
           <BsGearFill size={20} />
-          <Link to={"/"}>Settings</Link>
+          <Link to={"/settings"}>Settings</Link>
         </div>
       </MenuLinks>
       <div>

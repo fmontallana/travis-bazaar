@@ -2,6 +2,7 @@
   max-width: 360px;
   margin: 0 auto;
   height: 100vh;
+  color: #202020;
 }
 
 .custom-shape-divider-bottom-1642158847 {
@@ -12,7 +13,7 @@
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
-  background: linear-gradient(200deg, #ffffff, #f0fafd, #e2f5fb, #d3f0f9, #c3eaf7, #b3e5f5, #a2e0f3, #91dbf1, #7dd6ef, #67d0ed, #4ccbeb, #21c6e9);
+  background: linear-gradient(333deg, #ffffff, #f6fdfe, #eefafd, #e5f8fc, #ddf5fb, #d4f3fa, #ccf0f9, #c3eef8);
   z-index: -1;
 }
 
